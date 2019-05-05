@@ -14,6 +14,7 @@ namespace Biblioteca.classesBasicas
         private int telCliente;
         private string testedealteracao;
         private string testedealteracao2;
+        private string testecolab;
 
         public string CpfCliente { get => cpfCliente; set => cpfCliente = value; }
         public string NomeCliente { get => nomeCliente; set => nomeCliente = value; }
@@ -21,5 +22,6 @@ namespace Biblioteca.classesBasicas
         public int TelCliente { get => telCliente; set => telCliente = value; }
         public string Testedealteracao { get => testedealteracao; set => testedealteracao = value; }
         public string Testedealteracao2 { get => testedealteracao2; set => testedealteracao2 = value; }
+        public string Testecolab { get => testecolab; set => testecolab = value; }
     }
 }
